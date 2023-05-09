@@ -1,0 +1,36 @@
+name: tapped_test_project
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.5
+  collection: ^1.17.0
+  equatable: ^2.0.5
+  bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  tapped_lints:
+    git:
+      url: https://github.com/tappeddev/tapped_lints.git
+      ref: master
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
